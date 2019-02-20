@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:rbr="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <com.example.weioule.customviewdemo.widget.SpectrumView
+        android:id="@+id/spectrum_View"
+        android:layout_width="100dp"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="100dp"
+        android:background="@color/transparent"
+        android:padding="5dp"
+        rbr:RectangularBarColor="@color/white"
+        rbr:RectangularBarMinHeight="5dp"
+        rbr:RectangularBarSpace="3dp"
+        rbr:RectangularBarWidth="2dp" />
+
+    <ImageView
+        android:id="@+id/play_btn"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_below="@+id/spectrum_View"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="40dp"
+        android:background="@drawable/select_play_btn_bg" />
+
+    <com.example.weioule.customviewdemo.widget.TextSeekBar
+        android:id="@+id/text_seekbar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spectrum_View"
+        android:layout_marginLeft="-1.2dp"
+        android:layout_marginRight="-1.2dp"
+        android:layout_marginTop="120dp"
+        android:focusable="true"
+        android:maxHeight="10dp"
+        android:minHeight="10dp"
+        android:progressDrawable="@drawable/seekbar_progress_bg"
+        android:thumb="@drawable/seekbar_thumb_bg"
+        android:thumbOffset="0dp"
+        android:visibility="visible" />
+
+    <com.example.weioule.customviewdemo.widget.ScalingSwitch
+        android:id="@+id/scaling_switch"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/text_seekbar"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="100dp" />
+</RelativeLayout>

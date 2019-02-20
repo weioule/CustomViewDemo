@@ -1,0 +1,29 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="android:Theme.Holo.Light.DarkActionBar">
+        <!-- Customize your theme here. -->
+    </style>
+
+    <!--音频频谱控件-->
+    <declare-styleable name="AudioSpectruView">
+        <attr name="RectangularBarWidth" format="dimension|reference" />
+        <attr name="RectangularBarSpace" format="dimension|reference" />
+        <attr name="RectangularBarColor" format="color" />
+        <attr name="RectangularBarRadius" format="dimension|reference" />
+        <attr name="RectangularBarMinHeight" format="dimension|reference" />
+    </declare-styleable>
+
+    <declare-styleable name="ScalingSwitch">
+        <attr name="switchRadius" format="dimension" />
+        <attr name="switchCircleColor" format="color" />
+        <attr name="switchTextColor" format="color" />
+        <attr name="switchTextBgColor" format="color" />
+        <attr name="switchTextSize" format="dimension" />
+        <attr name="switchTextMargin" format="dimension" />
+        <attr name="switchBtnText" format="string" />
+        <attr name="switchHintText" format="string" />
+        <attr name="switchSwitchOn" format="boolean" />
+        <attr name="switchWidth" format="dimension" />
+    </declare-styleable>
+</resources>
