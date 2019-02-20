@@ -39,8 +39,7 @@
         android:minHeight="10dp"
         android:progressDrawable="@drawable/seekbar_progress_bg"
         android:thumb="@drawable/seekbar_thumb_bg"
-        android:thumbOffset="0dp"
-        android:visibility="visible" />
+        android:thumbOffset="0dp" />
 
     <com.example.weioule.customviewdemo.widget.ScalingSwitch
         android:id="@+id/scaling_switch"
