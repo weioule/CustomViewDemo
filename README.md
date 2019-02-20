@@ -4,7 +4,7 @@
 年前的聊天室功能今天上线了，忙碌了好一阵子
 期间自定义了一些控件，因为需求上要求的效果在网上没有找到，就自己画了，现在写个demo记录一下
 
-老规矩，看看做出来的效果图：
+老规矩，看看做出来的效果图：(剪切的图片有些模糊哈！将就看一下)
 <br><br>
  ![image](https://github.com/weioule/CustomViewDemo/blob/master/app/img/img01.jpg) 　
  ![image](https://github.com/weioule/CustomViewDemo/blob/master/app/img/img02.jpg) 　
