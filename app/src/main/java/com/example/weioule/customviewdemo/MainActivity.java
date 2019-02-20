@@ -65,7 +65,8 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
             @Override
             public void onStopTrackingTouch(SeekBar seekBar) {
-                mMediaPlayer.seekTo(seekBar.getProgress());
+                 if (null != mMediaPlayer)
+                    mMediaPlayer.seekTo(seekBar.getProgress());
             }
         });
         mScalingSwitch.setSwitchClicklistener(new ScalingSwitch.SwitchClicklistener() {
