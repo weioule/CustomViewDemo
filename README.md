@@ -5,11 +5,9 @@
 期间自定义了一些控件，因为需求上要求的效果在网上没有找到，就自己画了，现在写个demo记录一下
 
 老规矩，看看做出来的效果图：
-<br>
+<br><br><br>
  ![image](https://github.com/weioule/CustomViewDemo/blob/master/app/img/img01.jpg) 　
- 
- 
-  ![image](https://github.com/weioule/CustomViewDemo/blob/master/app/img/img02.jpg) 　
+ ![image](https://github.com/weioule/CustomViewDemo/blob/master/app/img/img02.jpg) 　
   
   先来说说音频频谱控件，GitHub上是有很多项目，但UI要求不一样，所以得自己画，主要是画的垂直圆角矩形，左上右下的值计算好，还有圆角的半径，带着间隔 依次画上去就行了。
   然后你就还需要采集播放器的声音频率，稍作处理后，再将上面画的矩形的top值进行相应的修改，接着不停的调用绘制的方法绘制就好。还有就是在测量的时候，注意一下布局里设置的模式，根据测量模式去处理。
