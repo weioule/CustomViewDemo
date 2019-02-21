@@ -172,6 +172,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         if (mMediaPlayer != null) {
             // 释放所有对象
             visualizer.release();
+            mMediaPlayer.stop();
             mMediaPlayer.release();
             mMediaPlayer = null;
         }
